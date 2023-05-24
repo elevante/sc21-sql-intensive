@@ -1,2 +1,2 @@
 SELECT name, age FROM person
-WHERE  address = 'Kazan'
+WHERE  address = 'Kazan';
