@@ -1,2 +1,3 @@
 SELECT name, age FROM person
-WHERE address = 'Kazan' and female = 'female'
+WHERE  address = 'Kazan' and gender = 'female'
+ORDER BY name;
