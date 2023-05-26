@@ -10,4 +10,3 @@ FROM (SELECT person_id, pizzeria_id
       WHERE visit_date BETWEEN '2022-01-07' AND '2022-01-09') AS pv
 ORDER BY person_name ASC,
          pizzeria_name DESC;
-
