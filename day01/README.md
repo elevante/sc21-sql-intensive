@@ -127,7 +127,7 @@ Please write a SQL statement which returns unique pizza names from the `menu` ta
 | Exercise 03: “Hidden” Insights |                                                                                                                          |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Turn-in directory                     | ex03                                                                                                                     |
-| Files to turn-in                      | `day01_ex03.sql`                                                                                 |
+| Files to turn-in                      | `day01_ex02.sql`                                                                                 |
 | **Allowed**                               |                                                                                                                          |
 | Language                        | ANSI SQL                                                                                              |
 | **Denied**                               |                                                                                                                          |
