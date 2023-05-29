@@ -4,4 +4,4 @@
 EXCEPT ALL
 (SELECT person_id
  FROM person_visits
- WHERE visit_date = '2022-01-07')
+ WHERE visit_date = '2022-01-07');
