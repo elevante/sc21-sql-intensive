@@ -6,4 +6,4 @@ SELECT id,
                    ELSE 'interval #3'
                    END) as interval_info
 FROM person
-ORDER BY interval_info ASC;
+ORDER BY interval_info;
