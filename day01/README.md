@@ -227,7 +227,7 @@ Please write a SQL statement which returns the date of order from the `person_or
 | Exercise 08: Migrate JOIN to NATURAL JOIN |                                                                                                                          |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Turn-in directory                     | ex08                                                                                                                     |
-| Files to turn-in                      | `day01_ex08.sql`                                                                                 |
+| Files to turn-in                      | `day01_ex07.sql`                                                                                 |
 | **Allowed**                               |                                                                                                                          |
 | Language                        | ANSI SQL                                                                                              |
 | SQL Syntax Construction                        | `NATURAL JOIN`                                                                                              |
