@@ -1,6 +1,6 @@
 SELECT
   COALESCE(p.name, '-') AS person_name,
-  visit_date AS person_visit,
+  visit_date,
   COALESCE(piz.name, '-') AS pizzeria_name
 FROM
   person as p FULL
