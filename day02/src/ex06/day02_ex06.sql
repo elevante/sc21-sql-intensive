@@ -17,7 +17,3 @@ FROM
 ORDER BY
   m.pizza_name,
   piz.name;
-
-
-
-
