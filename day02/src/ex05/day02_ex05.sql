@@ -1,10 +1,9 @@
 SELECT
-  name,
-  age
+  name
 FROM
   person
 WHERE
-  address = 'Kazan'
+  age > 25
   AND gender = 'female'
 ORDER BY
   name;
