@@ -1,11 +1,11 @@
 (
   SELECT
-    id as menu_id
+    id AS menu_id
   FROM
     menu
 )
 EXCEPT
-  ALL (
+   ALL(
     SELECT
       menu_id
     FROM
