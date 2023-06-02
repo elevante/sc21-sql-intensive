@@ -1,4 +1,4 @@
-WITH lack_orders AS (
+WITH tmp_lack_orders AS (
   (
     SELECT
       id
@@ -25,7 +25,7 @@ WHERE
     SELECT
       id
     FROM
-      lack_orders
+      tmp_lack_orders
   )
 ORDER BY
   pizza_name,
