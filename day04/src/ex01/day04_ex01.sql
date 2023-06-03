@@ -1,6 +1,17 @@
-(SELECT name  FROM v_persons_male)
+(
+  SELECT
+    name
+  FROM
+    v_persons_male
+)
 UNION
-(SELECT name  FROM v_persons_female)
-ORDER BY name;
+  (
+    SELECT
+      name
+    FROM
+      v_persons_female
+  )
+ORDER BY
+  name;
 
 

@@ -4,23 +4,6 @@
 
 Resume: Today you will see how to use a virtual view and physical snapshot of data
 
-
-## Preamble
-
-![D04_02](misc/images/D04_02.png)
-
-Why do we need virtual tables and materialized views in databases? Databases are just tables, aren't they? 
-No, actually not. Databases are similar for object-oriented language. Just recall, you have a lot of abstraction in Java (I mean Java Interfaces). We need abstraction to achieve “Clean Architecture” and change objects with minimal effect on dependencies (sometimes it’s working :-). 
-
-Moreover, there is a specific architectures’ pattern in the Relational Database with the name ANSI/SPARK.
-This pattern splits objects on three levels: 
-- external level
-- conceptual level
-- internal level
-
-Therefore we can say that Virtual Tables and Materialized Views are physical interfaces between tables with data and user / application.
-So, what is the difference then between 2 objects? The main difference is in the “freshness of data”. Below , you can see behaviors of these objects in graphical representation.
-
 ## Rules of the day
 
 - Please make sure you have an own database and access for it on your PostgreSQL cluster. 
