@@ -1,5 +1,5 @@
 DROP
-  VIEW v_generated_dates;
+  VIEW v_symmetric_union;
 DROP
   VIEW v_persons_female;
 DROP

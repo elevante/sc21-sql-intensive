@@ -1,4 +1,4 @@
-CREATE VIEW v_generated_dates AS WITH R AS (
+CREATE VIEW v_symmetric_union AS WITH R AS (
   SELECT
     person_id
   FROM
