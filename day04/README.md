@@ -42,7 +42,6 @@ Resume: Today you will see how to use a virtual view and physical snapshot of da
 
 Persons' visit and persons' order are different entities and don't contain any correlation between data. For example, a client can be in one restraunt (just looking at menu) and in this time make an order in different one by phone or by mobile application. Or another case,  just be at home and again make a call with order without any visits.
 
-## Chapter IV
 ## Exercise 00 - Let’s create separated views for persons
 
 | Exercise 00: Let’s create separated views for persons |                                                                                                                          |
@@ -55,7 +54,6 @@ Persons' visit and persons' order are different entities and don't contain any c
 Please create 2 Database Views (with similar attributes like the original table) based on simple filtering of gender of persons. Set the corresponding names for the database views: `v_persons_female` and `v_persons_male`.
 
 
-## Chapter V
 ## Exercise 01 - From parts to common view
 
 | Exercise 01: From parts to common view|                                                                                                                          |
@@ -74,7 +72,6 @@ Please use 2 Database Views from Exercise #00 and write SQL to get female and ma
 | ... |
 
 
-## Chapter VI
 ## Exercise 02 - “Store” generated dates in one place
 
 | Exercise 02: “Store” generated dates in one place|                                                                                                                          |
@@ -94,7 +91,6 @@ Please create a Database View (with name `v_generated_dates`) which should be �
 | ... |
 
 
-## Chapter VII
 ## Exercise 03 - Find missing visit days with Database View
 
 | Exercise 03: Find missing visit days with Database View |                                                                                                                          |
