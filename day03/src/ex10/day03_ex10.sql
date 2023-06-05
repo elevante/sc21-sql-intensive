@@ -49,4 +49,4 @@ VALUES
         pizza_name = 'sicilian pizza'
     ),
     '2022-02-24'
-  )
+  );
