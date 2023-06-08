@@ -4,68 +4,8 @@
 
 Resume: Today you will see how to use specific OLAP constructions to get a “Value” from data
 
-## Contents
-
-1. [Chapter I](#chapter-i) \
-    1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-    2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Rules of the day](#rules-of-the-day)  
-4. [Chapter IV](#chapter-iv) \
-    4.1. [Exercise 00 - Simple aggregated information](#exercise-00-simple-aggregated-information)  
-5. [Chapter V](#chapter-v) \
-    5.1. [Exercise 01 - Let’s see real names](#exercise-01-lets-see-real-names)  
-6. [Chapter VI](#chapter-vi) \
-    6.1. [Exercise 02 - Restaurants statistics](#exercise-02-restaurants-statistics)  
-7. [Chapter VII](#chapter-vii) \
-    7.1. [Exercise 03 - Restaurants statistics #2](#exercise-03-restaurants-statistics-2)  
-8. [Chapter VIII](#chapter-viii) \
-    8.1. [Exercise 04 - Clause for groups](#exercise-04-clause-for-groups)
-9. [Chapter IX](#chapter-ix) \
-    9.1. [Exercise 05 - Person's uniqueness](#exercise-05-persons-uniqueness)
-10. [Chapter X](#chapter-x) \
-    10.1. [Exercise 06 - Restaurant metrics](#exercise-06-restaurant-metrics)
-11. [Chapter XI](#chapter-xi) \
-    11.1. [Exercise 07 - Average global rating](#exercise-07-average-global-rating)
-12. [Chapter XII](#chapter-xii) \
-    12.1. [Exercise 08 - Find pizzeria’s restaurant locations](#exercise-08-find-pizzerias-restaurant-locations)    
-13. [Chapter XIII](#chapter-xiii) \
-    13.1. [Exercise 09 - Explicit type transformation](#exercise-09-explicit-type-transformation)        
-
-## Chapter I
-## Preamble
-
-![D07_01](misc/images/D07_01.png)
-
-Please take a look at Curve of Usefulness for detailed data in time. Other words, detailed data (means user transactions, facts about products and providers, etc.) are not useful for us from a historical perspective, because we just need to know  some aggregation to describe what was going on a year ago.
-
-Why does it happen? The reason is in our analytical mind. Actually we want to concentrate on our business strategy from a historical perspective to set new business goals and we don’t need details. 
-
-From a database point of view, “Analytical mind” corresponds to OLAP  traffic (information layer), “details” corresponds to OLTP traffic (raw data layer). Today there is a more flexible pattern to store detailed data and aggregated information in the ecosystem. I am talking about `LakeHouse = DataLake + DataWareHouse`.
-
-If we are talking about historical data then we should mention the “Data lifecycle management” pattern. Simple words, what should we do with old data? TTL (time-to-live), SLA for data, Retention Data Policy, etc. are terms that are in use in Data Governance strategy.
-
-![D07_02](misc/images/D07_02.png)
 
 
-
-## Chapter II
-## General Rules
-
-- Use this page as the only reference. Do not listen to any rumors and speculations on how to prepare your solution.
-- Please make sure you are using the latest version of PostgreSQL.
-- That is completely OK if you are using IDE to write a source code (aka SQL script).
-- To be assessed your solution must be in your GIT repository.
-- Your solutions will be evaluated by your piscine mates.
-- You should not leave in your directory any other file than those explicitly specified by the exercise instructions. It is recommended that you modify your `.gitignore` to avoid accidents.
-- Do you have a question? Ask your neighbor on the right. Otherwise, try with your neighbor on the left.
-- Your reference manual: mates / Internet / Google. 
-- Read the examples carefully. They may require things that are not otherwise specified in the subject.
-- And may the SQL-Force be with you!
-- Absolutely everything can be presented in SQL! Let’s start and have fun!
-
-## Chapter III
 ## Rules of the day
 
 - Please make sure you have an own database and access for it on your PostgreSQL cluster. 
@@ -105,7 +45,6 @@ If we are talking about historical data then we should mention the “Data lifec
 Persons' visit and persons' order are different entities and don't contain any correlation between data. For example, a client can be in one restaurant (just looking at menu) and in this time make an order in different one by phone or by mobile application. Or another case,  just be at home and again make a call with order without any visits.
 
 
-## Chapter IV
 ## Exercise 00 - Simple aggregated information
 
 | Exercise 00: Simple aggregated information |                                                                                                                          |
@@ -124,7 +63,6 @@ Let’s make a simple aggregation, please write a SQL statement that returns per
 | ... | ... | 
 
 
-## Chapter V
 ## Exercise 01 - Let’s see real names
 
 | Exercise 01: Let’s see real names|                                                                                                                          |
@@ -144,7 +82,6 @@ Please change a SQL statement from Exercise 00 and return a person name (not ide
 
 
 
-## Chapter VI
 ## Exercise 02 - Restaurants statistics
 
 | Exercise 02: Restaurants statistics|                                                                                                                          |
@@ -163,7 +100,6 @@ Please write a SQL statement to see 3 favorite restaurants by visits and by orde
 | Dominos | 7 | visit |
 | ... | ... | ... |
 
-## Chapter VII
 ## Exercise 03 - Restaurants statistics #2
 
 | Exercise 03: Restaurants statistics #2 |                                                                                                                          |
@@ -188,7 +124,6 @@ Take a look at the data sample below.
 | ... | ... | 
 
 
-## Chapter VIII
 ## Exercise 04 - Clause for groups
 
 
@@ -209,7 +144,6 @@ Please write a SQL statement that returns the person name and corresponding numb
 
 
 
-## Chapter IX
 ## Exercise 05 - Person's uniqueness
 
 
@@ -230,7 +164,6 @@ Please write a simple SQL query that returns a list of unique person names who m
 | Anna | 
 | ... | 
 
-## Chapter X
 ## Exercise 06 - Restaurant metrics
 
 
@@ -251,7 +184,6 @@ Round your average price to 2 floating numbers.
 | ... | ... | ... | ... | ... |
 
 
-## Chapter XI
 ## Exercise 07 - Average global rating
 
 
@@ -265,7 +197,6 @@ Round your average price to 2 floating numbers.
 Please write a SQL statement that returns a common average rating (the output attribute name is global_rating) for all restaurants. Round your average rating to 4 floating numbers.
 
 
-## Chapter XII
 ## Exercise 08 - Find pizzeria’s restaurant locations
 
 
@@ -285,7 +216,6 @@ We know about personal addresses from our data. Let’s imagine, that particular
 | ... | ... | ... | 
 
 
-## Chapter XIII
 ## Exercise 09 - Explicit type transformation
 
 
