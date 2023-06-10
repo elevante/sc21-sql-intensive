@@ -38,7 +38,7 @@ create table pizzeria
 );
 
 alter table pizzeria
-    add constraint ch_rating check ( rating between 0 and 5);
+    add constraint ch_rating check (rating between 0 and 5);
 
 insert into pizzeria
 values (1, 'Pizza Hut', 4.6);
@@ -215,7 +215,6 @@ values (19, 9, 18, '2022-01-09');
 insert into person_order
 values (20, 9, 6, '2022-01-10');
 
-
 INSERT INTO menu (id, pizzeria_id, pizza_name, price)
 VALUES (19, 2, 'greek pizza', 800);
 
@@ -299,4 +298,3 @@ WHERE order_date = '2022-02-25';
 DELETE
 FROM menu
 WHERE pizza_name = 'greek pizza';
-
