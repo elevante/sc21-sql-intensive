@@ -1,6 +1,6 @@
 CREATE
-    OR REPLACE FUNCTION fnc_trg_person_insert_audit() RETURNS trigger AS
-$trg_person_insert_audit$
+    OR REPLACE FUNCTION fnc_trg_person_update_audit() RETURNS trigger AS
+$trg_person_update_audit$
 BEGIN
     IF
         (TG_OP = 'UPDATE') THEN
@@ -9,14 +9,14 @@ BEGIN
     END IF;
     RETURN NULL;
 END;
-$trg_person_insert_audit$
+$trg_person_update_audit$
     LANGUAGE plpgsql;
 
-CREATE TRIGGER trg_person_insert_audit
+CREATE TRIGGER trg_person_update_audit
     AFTER UPDATE
     ON person
     FOR EACH ROW
-EXECUTE FUNCTION fnc_trg_person_insert_audit();
+EXECUTE FUNCTION fnc_trg_person_update_audit();
 
 UPDATE person
 SET name = 'Bulat'
