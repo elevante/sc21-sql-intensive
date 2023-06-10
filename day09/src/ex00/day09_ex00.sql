@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS person_audit
 (
     created    timestamp(0) with time zone DEFAULT CURRENT_TIMESTAMP,
-    type_event char(1),
+    type_event char(1)  default('I') not null,
     row_id     bigint NOT NULL,
     name       varchar,
     age        integer,
