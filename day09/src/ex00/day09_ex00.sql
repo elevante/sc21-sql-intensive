@@ -30,4 +30,4 @@ CREATE TRIGGER trg_person_insert_audit
 EXECUTE FUNCTION fnc_trg_person_insert_audit();
 
 INSERT INTO person(id, name, age, gender, address)
-VALUES (17, 'Damir', 22, 'male', 'Irkutsk');
+VALUES (10, 'Damir', 22, 'male', 'Irkutsk');
