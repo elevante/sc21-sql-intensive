@@ -7,15 +7,6 @@
 	<img src="https://img.shields.io/badge/postgresql-white?style=for-the-badge&logo=postgresql">
 </span>
 
-## 📄 Content
-
-[Description](https://github.com/D-Dashka/SQL-Bootcamp#-description)
-
-[Schemas preview](https://github.com/D-Dashka/SQL-Bootcamp#-schemas)
-
-[Exercises](https://github.com/D-Dashka/SQL-Bootcamp#-exercises)
-
-
 ## 📝 Description
 SQL Bootcamp at School21 is an introduction to SQL language and databases in the intensive format: you need to complete exercises and present your solutions to other students every day to succeed at the Bootcamp.
 Each module (day) in Bootcamp contains tasks dedicated to implementation of SQL statements to retrieve needed data from given database.
