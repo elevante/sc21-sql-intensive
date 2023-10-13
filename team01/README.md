@@ -1,23 +1,7 @@
-# Team 01 - Piscine SQL
-
 ## _Data Warehouse_
 
 Resume: Today you will know what DWH is and how to create a first ETL process
 
-## Contents
-
-1. [Chapter I](#chapter-i) \
-    1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-    2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Rules of the day](#rules-of-the-day)  
-4. [Chapter IV](#chapter-iv) \
-    4.1. [Exercise 00 - Classical DWH](#exercise-00-classical-dwh)  
-5. [Chapter V](#chapter-v) \
-    5.1. [Exercise 01 - Detailed Query](#exercise-01-detailed-query)  
-
-## Chapter I
 ## Preamble
 
 ![T01_01](misc/images/T01_01.png)
@@ -49,7 +33,6 @@ I would like to show a list of existing Data Models Patterns.
 - Graph Model
 
 
-## Chapter II
 ## General Rules
 
 - Use this page as the only reference. Do not listen to any rumors and speculations on how to prepare your solution.
@@ -75,7 +58,6 @@ I would like to show a list of existing Data Models Patterns.
 ![schema](misc/images/schema.png)
 
 
-## Chapter IV
 ## Exercise 00 - Classical DWH
 
 | Exercise 00: Classical DWH|                                                                                                                          |
@@ -208,7 +190,6 @@ Please take a look at a sample of output data below. Sort the result by user nam
 | ... | ... | ... | ... | ... | ... | ... |
 
 
-## Chapter V
 ## Exercise 01 - Detailed Query
 
 | Exercise 01: Detailed Query|                                                                                                                          |
