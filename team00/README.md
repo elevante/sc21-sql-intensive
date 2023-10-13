@@ -1,9 +1,7 @@
-# Team 00 - Piscine SQL
 
 ## _Traveling Salesman Problem_
 
 Resume: Today you will implementing a quick solution on SQL to achieve results of Traveling Salesman Problem
-
 
 
 ## General Rules
